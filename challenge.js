@@ -11,7 +11,7 @@ var elements = [3,
 
 var interval;
 
-fnction start(){
+function start(){
 	interval = setInterval(function()
 		{pushNextGen();
 		}, 100);
