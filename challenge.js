@@ -137,16 +137,18 @@ function pushNextGen() {
 
 // // 5. Start/Stop button
 
-
+var elements = [3,
+		5,
+		7, 
+		8
+		];
 
 var interval;
 
 fnction start(){
 	interval = setInterval(function()
-		{
-		  pushNextGen();
-		}, 
-		100);
+		{pushNextGen();
+		}, 100);
 } 
 function stop(){
 	clearInterval(interval);
