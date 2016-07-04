@@ -3,11 +3,7 @@ function createTable() {
 // grab the hard-coded table
 var table = document.getElementById("main");
 
-var elements = [3,
-		5,
-		7, 
-		8
-		];
+var elements = [3, 5, 7, 8];
 
 var interval;
 
